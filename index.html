@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>101 Net - Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.1.0/showdown.min.js"></script>
+</head>
+<body>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <div class="nav-left">
+            <button onclick="location.href='index.html'">Home</button>
+            <button onclick="location.href='bookmarks.html'">Bookmarks</button>
+            <button onclick="location.href='history.html'">History</button>
+        </div>
+        <div class="nav-right">
+            <button id="login-button">Log In</button>
+            <button>Sign Up</button>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container">
+        <div class="content-wrapper">
+            <!-- README / About Section -->
+            <div class="about-section">
+                <h2>About 101 Net</h2>
+                <div id="readme-content">Loading...</div>
+            </div>
+
+            <!-- Download Section -->
+            <div class="download-section">
+                <h2>Download</h2>
+                <a id="download-btn" href="#" target="_blank" class="download-button">Download Latest Version</a>
+                <p><a href="https://github.com/PaulGamerBoy101/101-Net" target="_blank">View all versions</a></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="showdown.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

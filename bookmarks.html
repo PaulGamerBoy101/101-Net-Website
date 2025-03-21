@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>101 Net - Bookmarks</title>
+    <link rel="stylesheet" href="bookmarks.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.1.0/showdown.min.js"></script>
+</head>
+<body>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <div class="nav-left">
+            <button onclick="location.href='index.html'">Home</button>
+            <button onclick="location.href='bookmarks.html'" class="active">Bookmarks</button>
+            <button onclick="location.href='history.html'">History</button>
+        </div>
+        <div class="nav-right">
+            <button>Log In</button>
+            <button>Sign Up</button>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container">
+        <div class="content-wrapper">
+            <!-- Bookmarks Section -->
+            <div class="bookmarks-section">
+                <h2>Your Bookmarks</h2>
+                <div id="bookmarks-content">Loading...</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
