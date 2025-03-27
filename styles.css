@@ -98,3 +98,13 @@ pre {
 .download-button:hover {
     background-color: #00ff00;
 }
+/* Screenshot Section */
+.screenshot-section {
+    width: 100%;
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 255, 0, 0.3);
+}
