@@ -28,15 +28,15 @@ th, td {
 }
 
 button {
-    padding: 10px 15px;
-    border: none;
-    border-radius: 5px;
-    background-color: #2bff00;
-    color: rgb(0, 0, 0);
-    cursor: pointer;
-    margin-right: 5px;
+    padding: 10px 15px !important;
+    border: none !important;
+    border-radius: 5px !important;
+    background-color: #2bff00 !important;
+    color: rgb(0, 0, 0) !important;
+    cursor: pointer !important;
+    margin-right: 5px !important;
 }
 
 button:hover {
-    background-color: #1a9b00;
+    background-color: #1a9b00 !important;
 }
