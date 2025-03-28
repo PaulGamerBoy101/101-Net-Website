@@ -10,12 +10,15 @@ document.addEventListener("DOMContentLoaded", function () {
             if (assets.length > 0) {
                 const downloadSection = document.getElementById("download-section");
 
+                // Clear any existing placeholder message
+                downloadSection.innerHTML = "";
+
                 // Loop through each asset
                 assets.forEach(asset => {
                     const downloadLink = document.createElement("a");
                     downloadLink.href = asset.browser_download_url; // URL to the asset
                     downloadLink.textContent = `Download ${asset.name}`; // Asset file name
-                    downloadLink.style.display = "block"; // Add spacing for each link
+                    downloadLink.className = "asset-link"; // Apply the button style from CSS
                     downloadSection.appendChild(downloadLink);
                 });
             } else {
