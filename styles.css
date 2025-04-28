@@ -126,4 +126,6 @@ pre {
 .asset-link:hover {
     background-color: #00ff00;
 }
-
+a {
+    color: #00bbff;
+}
